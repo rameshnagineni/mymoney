@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="user-task-flow">
+    <default-activity id="__1">createmymoneyuser</default-activity>
+    <view id="createmymoneyuser">
+      <page>/hs/user/fragments/createmymoneyuser.jsff</page>
+    </view>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>
