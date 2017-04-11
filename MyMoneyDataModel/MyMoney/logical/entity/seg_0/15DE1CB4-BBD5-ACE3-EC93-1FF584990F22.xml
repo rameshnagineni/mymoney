@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15DE1CB4-BBD5-ACE3-EC93-1FF584990F22" name="MYMONEYUSER">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:05:15 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FIRSTNAME" id="6FBBB775-C01D-885F-EEFB-21D91C64B3E8">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:15:35 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LASTNAME" id="1CDA0647-97FF-A5F3-97E2-24F83C4C4EC5">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:15:45 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERNAME" id="3FED9B42-F792-07AE-189A-8BA412E7122F">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:15:52 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERID" id="08C44680-5309-56E8-BAAE-601DB62231B3">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:16:00 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="0385ABA1-6466-43CF-290A-92427EA30AB6">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:16:10 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="2226A3F0-53D0-EDBC-D4B4-643F1397D8AE">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:16:21 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONENUMBER" id="6A756EE8-E991-AA4F-D774-CC8B777058AB">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:16:31 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATEDBY" id="E7A6C018-CEB0-E342-B0C8-5AD9670BB845">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:16:49 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODIFIEDBY" id="D7EDD321-68F4-ED23-7B64-39A5AD45D05E">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:17:03 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATEDDATE" id="128BA6D9-9142-B9C9-500A-E33782A9E9A8">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:17:15 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODIFIEDDATE" id="2A939B59-1793-2D50-3CEA-705B187E0F5F">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:17:23 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BFCAA32-E010-25D6-601F-33B50A8A20D0" name="MYMONEYUSER PK">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 03:03:04 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08C44680-5309-56E8-BAAE-601DB62231B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

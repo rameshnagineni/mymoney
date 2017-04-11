@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MyMoney" id="75842F01-CA11-A54F-0BD1-6D53CF7E43A8" version="3.5">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:02:02 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75842F01-CA11-A54F-0BD1-6D53CF7E43A8</designId>
+</OSDM_Design>

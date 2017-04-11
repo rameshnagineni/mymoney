@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19BFED41-293F-4922-0718-BFAC2C8A8971" name="MYMONEYACCOUNTTYPE">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-29 03:10:36 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BANKACCOUNTTYPEID" id="FC4AA1EB-04B8-3DE8-2FA9-8A514299E627">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:50:14 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCOUNTTYPENAME" id="A076EDE0-4BF1-4F52-20FD-0E14179965F3">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:50:30 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATEDBY" id="E04F0FE1-6416-44E1-DC5C-A96BF3C6E13A">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:50:56 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODIFIEDBY" id="F5A6C1C8-BBB0-DCFE-8EF8-F312CF31E4B8">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:51:12 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATEDDATE" id="D79FCD01-5FDF-583E-D41C-3CB83D16EFDA">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:51:19 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODIFIEDDATE" id="2C1A27CE-8446-5A5B-2414-4BCB65EF1924">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 02:51:25 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48A0053D-84EF-6200-9FC8-7BE869EBF57F" name="MYMONEYACCOUNTTYPE PK">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 03:10:19 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC4AA1EB-04B8-3DE8-2FA9-8A514299E627</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

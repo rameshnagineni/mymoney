@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="80DF1292-2387-A568-9051-ED40D6F05C9E">
+<createdBy>Ramesh_2</createdBy>
+<createdTime>2017-03-30 03:08:03 UTC</createdTime>
+<ownerDesignName>MyMoney</ownerDesignName>
+<engineerTo>
+<item key="613495A0-EF78-ACB2-EE7F-8E9F32AA23D1" value="true"/>
+</engineerTo>
+<sourcePk>2BFCAA32-E010-25D6-601F-33B50A8A20D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15DE1CB4-BBD5-ACE3-EC93-1FF584990F22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F3A7D50-2A3D-B082-C0E6-1AD304A2EDF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
