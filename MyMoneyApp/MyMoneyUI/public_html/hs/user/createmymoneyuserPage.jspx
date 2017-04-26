@@ -6,6 +6,7 @@
   <jsp:directive.page contentType="text/html;charset=UTF-8"/>
   <f:view>
     <af:document id="d1">
+      <af:messages id="m1"/>
       <af:form id="f1">
         <af:region value="#{bindings.usertaskflow1.regionModel}" id="r1"/>
       </af:form>

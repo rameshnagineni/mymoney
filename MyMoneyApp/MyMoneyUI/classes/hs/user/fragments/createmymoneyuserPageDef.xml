@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel"
+                version="11.1.1.64.93" id="createmymoneyuserPageDef"
+                Package="hs.user.fragments">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="MyMoneyUserVO1" RangeSize="25"
+              DataControl="MyMoneyAMDataControl" id="MyMoneyUserVO1Iterator"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Firstname">
+      <AttrNames>
+        <Item Value="Firstname"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Lastname">
+      <AttrNames>
+        <Item Value="Lastname"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Username">
+      <AttrNames>
+        <Item Value="Username"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Userid">
+      <AttrNames>
+        <Item Value="Userid"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Password">
+      <AttrNames>
+        <Item Value="Password"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Email">
+      <AttrNames>
+        <Item Value="Email"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Phonenumber">
+      <AttrNames>
+        <Item Value="Phonenumber"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Createdby">
+      <AttrNames>
+        <Item Value="Createdby"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Modifiedby">
+      <AttrNames>
+        <Item Value="Modifiedby"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Createddate">
+      <AttrNames>
+        <Item Value="Createddate"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="MyMoneyUserVO1Iterator" id="Modifieddate">
+      <AttrNames>
+        <Item Value="Modifieddate"/>
+      </AttrNames>
+    </attributeValues>
+    <action id="Commit" RequiresUpdateModel="true" Action="commitTransaction"
+            DataControl="MyMoneyAMDataControl"/>
+  </bindings>
+</pageDefinition>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="com.hs.view" ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding"
+             className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/hs/user/createmymoneyuserPage.jspx"
+          usageId="com_hs_view_createmymoneyuserPagePageDef"/>
+    <page path="/hs/user/fragments/createmymoneyuser.jsff"
+          usageId="com_hs_view_createmymoneyuserPageDef"/>
+    <page path="/WEB-INF/user-task-flow.xml#user-task-flow@CreateInsert"
+          usageId="com_hs_view_user_task_flow_user_task_flow_CreateInsertPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="com_hs_view_createmymoneyuserPagePageDef"
+          path="hs.user.createmymoneyuserPagePageDef"/>
+    <page id="com_hs_view_createmymoneyuserPageDef"
+          path="hs.user.fragments.createmymoneyuserPageDef"/>
+    <page id="com_hs_view_user_task_flow_user_task_flow_CreateInsertPageDef"
+          path="com.hs.view.pageDefs.user_task_flow_user_task_flow_CreateInsertPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="MyMoneyAMDataControl" Package="com.hs.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl"
+                     SupportsTransactions="true" SupportsFindMode="true"
+                     SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true"
+                     Configuration="MyMoneyAMLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+    
+  </dataControlUsages>
+</Application>

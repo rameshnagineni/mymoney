@@ -16,6 +16,9 @@
         ResId="com.hs.model.MyMoneyAM_LABEL"/>
     </SchemaBasedProperties>
   </Properties>
+  <ViewUsage
+    Name="MyMoneyUserVO1"
+    ViewObjectName="com.hs.model.vo.MyMoneyUserVO"/>
   <ResourceBundle>
     <PropertiesBundle
       PropertiesFile="com.hs.model.MyMoneyModelBundle"/>

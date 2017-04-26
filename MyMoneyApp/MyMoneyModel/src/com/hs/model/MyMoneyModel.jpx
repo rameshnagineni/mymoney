@@ -9,15 +9,32 @@
   PackageName="com.hs.model">
   <DesignTime>
     <Attr Name="_jprName" Value="../../../../MyMoneyModel.jpr"/>
-    <Attr Name="_NamedConnection" Value="HrCon"/>
+    <Attr Name="_NamedConnection" Value="Connection1"/>
     <Attr Name="_appModuleNames0" Value="com.hs.model.MyMoneyAM"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="Java"/>
   </DesignTime>
+  <Containee
+    Name="eo"
+    PackageName="com.hs.model.eo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+    </DesignTime>
+  </Containee>
   <Containee
     Name="model"
     PackageName="com.hs.model"
     ObjectType="JboPackage">
     <DesignTime>
       <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="vo"
+    PackageName="com.hs.model.vo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
     </DesignTime>
   </Containee>
 </JboProject>
