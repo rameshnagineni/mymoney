@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="com.hs.model.MyMoneyAM">
+      <AppModuleConfig DeployPlatform="LOCAL" JDBCName="Connection1" jbo.project="com.hs.model.MyMoneyModel" name="MyMoneyAMLocal" ApplicationName="com.hs.model.MyMoneyAM">
+         <Database jbo.locking.mode="optimistic"/>
+         <Security AppModuleJndiName="com.hs.model.MyMoneyAM"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="MyMoneyAMShared" ApplicationName="com.hs.model.MyMoneyAM" DeployPlatform="LOCAL" jbo.project="com.hs.model.MyMoneyModel" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory">
+         <AM-Pooling jbo.ampool.isuseexclusive="false" jbo.ampool.maxpoolsize="1"/>
+         <Security AppModuleJndiName="com.hs.model.MyMoneyAM"/>
+         <Custom JDBCDataSource="java:comp/env/jdbc/HrConDS"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

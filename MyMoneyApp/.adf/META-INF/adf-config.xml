@@ -13,7 +13,9 @@
     </startup>
   </adf-adfm-config>
   <adf:adf-properties-child xmlns="http://xmlns.oracle.com/adf/config/properties">
+
     <adf-property name="adfAppUID" value="MyMoneyApp-3780"/>
+
   </adf:adf-properties-child>
   <sec:adf-security-child xmlns="http://xmlns.oracle.com/adf/security/config">
     <CredentialStoreContext credentialStoreClass="oracle.adf.share.security.providers.jps.CSFCredentialStore"
